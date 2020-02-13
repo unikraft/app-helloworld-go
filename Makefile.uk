@@ -1,0 +1,3 @@
+$(eval $(call addlib,apphelloworldgo))
+
+APPHELLOWORLDGO_SRCS-y += $(APPHELLOWORLDGO_BASE)/helloworld.go
