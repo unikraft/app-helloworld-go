@@ -1,4 +1,4 @@
-# Unikraft "hello world" Application
+# Unikraft Go "hello world" Application
 
 To build and run this application please use the `kraft` script:
 
