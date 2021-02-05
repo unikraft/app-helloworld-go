@@ -1,6 +1,6 @@
 specification: '0.4'
 
-unikraft: '0.4'
+unikraft: '0.5'
 
 architectures:
   x86_64: true
@@ -9,13 +9,13 @@ platforms:
   kvm: true
   
 libraries:
-  gcc: '0.4'
-  libgo: '0.4'
-  pthread-embedded: '0.4'
-  lwip: '0.4'
-  compiler-rt: '0.4'
-  libcxx: '0.4'
-  libcxxabi: '0.4'  
-  libunwind: '0.4'
-  libucontext: '0.4'
-  newlib: '0.4'
+  gcc: '0.5'
+  libgo: '0.5'
+  pthread-embedded: '0.5'
+  lwip: '0.5'
+  compiler-rt: '0.5'
+  libcxx: '0.5'
+  libcxxabi: '0.5'  
+  libunwind: '0.5'
+  libucontext: '0.5'
+  newlib: '0.5'
