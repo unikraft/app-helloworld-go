@@ -1,13 +1,10 @@
-specification: '0.4'
-
-unikraft: '0.5'
-
-architectures:
-  x86_64: true
-  
-platforms:
-  kvm: true
-  
+specification: '0.5'
+name: helloworld-go
+unikraft:
+  version: '0.5'
+targets:
+  - architecture: x86_64
+    platform: kvm
 libraries:
   gcc: '0.5'
   libgo: '0.5'
@@ -15,7 +12,7 @@ libraries:
   lwip: '0.5'
   compiler-rt: '0.5'
   libcxx: '0.5'
-  libcxxabi: '0.5'  
+  libcxxabi: '0.5'
   libunwind: '0.5'
   libucontext: '0.5'
   newlib: '0.5'
