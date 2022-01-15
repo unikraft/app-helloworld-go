@@ -1,18 +1,18 @@
 specification: '0.5'
 name: helloworld-go
 unikraft:
-  version: '0.5'
+  version: '0.6'
 targets:
   - architecture: x86_64
     platform: kvm
 libraries:
-  gcc: '0.5'
-  libgo: '0.5'
-  pthread-embedded: '0.5'
-  lwip: '0.5'
-  compiler-rt: '0.5'
-  libcxx: '0.5'
-  libcxxabi: '0.5'
-  libunwind: '0.5'
-  libucontext: '0.5'
-  newlib: '0.5'
+  gcc: '0.6'
+  libgo: '0.6'
+  pthread-embedded: '0.6'
+  lwip: '0.6'
+  compiler-rt: '0.6'
+  libcxx: '0.6'
+  libcxxabi: '0.6'
+  libunwind: '0.6'
+  libucontext: '0.6'
+  newlib: '0.6'
