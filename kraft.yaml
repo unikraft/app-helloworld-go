@@ -2,6 +2,8 @@ specification: '0.5'
 name: helloworld-go
 unikraft:
   version: '0.6'
+  kconfig:
+    - CONFIG_LIBSYSCALL_SHIM_LIBCSTUBS=y
 targets:
   - architecture: x86_64
     platform: kvm
