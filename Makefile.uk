@@ -1,3 +1,4 @@
 $(eval $(call addgoapp,apphelloworldgo))
 
 APPHELLOWORLDGO_SRCS-y += $(APPHELLOWORLDGO_BASE)/helloworld.go
+#APPHELLOWORLDGO_SRCS-y += $(APPHELLOWORLDGO_BASE)/server.go
