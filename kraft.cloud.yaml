@@ -17,7 +17,6 @@ targets:
       - CONFIG_KVM_BOOT_PROTO_LXBOOT=y
       - CONFIG_KVM_VMM_FIRECRACKER=y
       - CONFIG_VIRTIO_BUS=y
-      - CONFIG_VIRTIO_NET=n
 libraries:
   libgo:
     version: stable
